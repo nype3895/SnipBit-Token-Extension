@@ -36,6 +36,7 @@ Token Categories
     }
   }
 }
+
 2. Spacing (tokens/spacing.json)
 {
   "spacing": {
@@ -46,6 +47,7 @@ Token Categories
     "xl": { "value": "32px" }
   }
 }
+
 3. Effects – Border Radius & Shadows (tokens/effects.json)
 {
   "borderRadius": {
@@ -133,3 +135,16 @@ Android – build/android/dimens.xml
 </resources>
 Docs – build/docs/styleguide.html
 A web-friendly style guide page is generated using the HTML format (optional).
+
+Reading Response:
+As a designer, turning a brand’s style guide into design tokens felt like organizing creativity into something clear and usable for developers. One of the best parts was how tokens made everything more consistent and efficient. For example, updating a font size or color in one place applied the change everywhere. That helps avoid the kind of mismatches I’ve seen in past projects where screens looked slightly different because people were using different styles.
+
+Another benefit was smoother collaboration. Once the tokens were set up, developers could grab exact values for spacing, typography, and colors without needing a long design spec. This made the handoff easier and saved time for everyone.
+
+There were some challenges too. Not everything in a brand guide fits perfectly into tokens. Things like tone, layout ideas, or visual feel are harder to turn into code. Naming tokens took some trial and error because the names need to make sense now and later if the system grows. For small projects or teams, this setup might feel like a lot of work at first.
+
+I used GitHub to organize the tokens. For bigger teams, I’d suggest having a clear process for making changes, like using branches and including designers in reviews when styles change. It would also help to release updates on a schedule so everyone stays in sync.
+
+If this system was being used in a real product, I’d want to add more automation. For example, automatically updating a style guide whenever tokens change. I’d also add tools to catch visual mistakes before anything goes live. Documentation is important too so people know what tokens are available and how to use them.
+
+In the end, I see tokens as a bridge between design and code. If I were helping a company with an existing style guide, I would explain that design tokens make it easier to keep their brand consistent. It takes some upfront work and communication across teams, but it’s a great way to support scalable and flexible design systems. Even companies like Intuit found this helpful when working across many teams and products.
